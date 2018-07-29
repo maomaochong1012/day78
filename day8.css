@@ -1,0 +1,123 @@
+<style type>
+* {
+		margin: 0;
+		padding: 0;
+	}
+	.top {
+		width: 100%;
+		height: 80px;
+		background-color: #333333;
+	}
+	.name {
+		position: relative;
+		width: 960px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.logo {
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.nav1 {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.top li {
+		display: inline-block;
+		list-style-type: none;
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+	.top li a {
+		color: #fff;
+	}
+	.banner {
+		width: 100%;
+		height: 300px;
+		background-color: #66BB33;
+	}
+	.nummber {
+		position: relative;
+		width: 960px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.showNum {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		margin: 5px;
+	}
+	.Num {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		border: 1px solid #000;
+		text-align: center;
+		background-color: #B2DD99;
+		vertical-align: bottom;
+		line-height: 30px;
+	}
+	.active {
+		box-sizing: border-box;
+		height: 50px;
+		padding-top: 20px;
+		background-color: #E0F1D6;
+	}
+	.nav2 {
+		width: 100%;
+		height: 70px;
+		border-bottom: 1px solid #DDDDDD;
+	}
+	.navbar {
+		position: relative;
+		width: 960px;
+		height: 100%;
+		margin: 0 auto;
+		font-size: 0;
+	}
+	.nav {
+		margin-top: 20px;
+		display:inline-block;
+		width: 118px;
+		height: 50px;
+		line-height: 50px;
+		border-top: 1px solid #DDD;
+		border-left: 1px solid #DDD;
+		border-right: 1px solid #DDD;
+		font-size: 12px;
+		text-align: center;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		background-color: #EEE;
+	}
+	.navNative {
+		border-bottom-color: #FFF;
+		background-color: #FFF;
+	}
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.content div {
+		flex: 1;
+		border: 1px solid #DDD;
+		padding: 80px;
+		margin: 5px;
+	}
+footer{
+	line-height:40px;
+	background-color:#666;
+	text-align:center;
+	height:100px;
+	color:white;}
+</style>
